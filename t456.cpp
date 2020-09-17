@@ -1,6 +1,6 @@
 #include <vector>
 #include <stack>
-
+#define INT_MIN -10000
 class Solution {
 public:
     bool find132pattern(std::vector<int>& nums) {
