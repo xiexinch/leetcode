@@ -5,7 +5,6 @@ class Solution {
 private:
     std::vector<int> vis;
 public:
-
     void backtrack(std::vector<int> & nums, std::vector<std::vector<int>>& ans, int idx, std::vector<int>& perm) {
         int sz = nums.size();
         if (idx == sz) {
@@ -23,7 +22,6 @@ public:
             perm.pop_back();
         }
     }
-
     std::vector<std::vector<int>> permuteUnique(std::vector<int>& nums) {
         std::vector<std::vector<int>> ans;
         std::vector<int> perm;
